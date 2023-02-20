@@ -28,6 +28,6 @@ namespace HandsOut.API.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)] //comment
             })
             .ToArray();
-        }
+        }//comment
     }
 }
